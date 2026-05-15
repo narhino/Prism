@@ -25,3 +25,11 @@
 - Default short. Two clauses max.
 - Use a long sentence to slow down on the mechanism reveal.
 - One-word sentences are allowed for emphasis. Sparingly.
+
+## Three-item list, third subverts
+
+Default rhetorical device. Format: [concrete A], [concrete B], [concrete C that breaks the pattern]. The third item escalates, breaks tone, or delivers the verdict. Lets the prose carry skepticism without editorializing. See `outlier-patterns.md` for examples.
+
+## Outro rule
+
+One sentence. Under 15 words. Verdict, not summary. No CTA, no "thanks for watching", no "subscribe", no rhetorical question. The line should reframe everything previous — what the audience tells a friend later.
