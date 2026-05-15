@@ -2,7 +2,7 @@
 
 ## Project identity
 
-- **Channel name:** Who Profits? *(working title — confirm with user before locking)*
+- **Channel name:** prizm
 - **One-liner:** Every headline is a transaction. We show you who's on the other side.
 - **Tone:** Calm, dry, slightly skeptical investigator — journalist's voiceover, never YouTuber hype.
 - **Visual identity:** White line work on dark background, hand-drawn storyboard.

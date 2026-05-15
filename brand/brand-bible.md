@@ -4,7 +4,7 @@ The single source of truth for who this channel is. Every subagent reads this be
 
 ## Channel
 
-- **Name:** Who Profits? *(placeholder — user to confirm)*
+- **Name:** prizm
 - **One-liner:** Every headline is a transaction. We show you who's on the other side.
 
 ## Premise
@@ -37,11 +37,8 @@ Calm, dry, slightly skeptical investigator. Never ranty. Never hype. Never "folk
 - Hard floor: 8 minutes.
 - Hard ceiling: 15 minutes.
 
-## What we never do
+## What we avoid (lawsuit risk only)
 
-- Financial advice.
-- Hot takes on individual stock picks.
-- Partisan political framing.
-- Predictions of specific market moves.
-- Anything that requires footage of a real identifiable person.
-- Anything attacking a specific living private individual.
+- Naming a specific living **private** individual as the villain when the claim isn't already public record. Public figures, public officials, executives acting in their official capacity, and corporations are fair game.
+
+Everything else — partisan framing, market calls, hot takes, financial-advice-adjacent claims, sharp opinions — is on the table. We play the grey area on purpose. The brand is the investigator who actually says what the evidence shows.

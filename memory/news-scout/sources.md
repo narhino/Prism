@@ -1,5 +1,7 @@
 # News sources
 
+**Operating rule (locked 2026-05-15):** News Scout pulls news *live* via web search on every `/pull-news` invocation. The user does not pre-curate headlines. Never rely on cached recall or training data — always fetch fresh.
+
 Pull from this list first. Update as the user adds or removes sources.
 
 ## Primary (original reporting)
