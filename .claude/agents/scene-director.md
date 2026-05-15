@@ -18,26 +18,29 @@ Break the finished script into **30–50 discrete visual scenes**. Describe only
 
 ## Output
 
-Write `pipeline/current/05-scenes.md`. Each scene is a block following `scene-format.md`:
+Write `pipeline/current/05-scenes.md`. The file begins with a **Character library** listing canonical descriptions for any character that appears in 2 or more scenes, then a stream of scene blocks. Each scene block follows the format in `scene-format.md`:
 
 ```
 ---
-SCENE [N]
-Timestamp: [m:ss – m:ss]
-Narration: "[1–3 lines verbatim from script]"
-Visual: [2–4 sentences, present tense, what we see on screen]
-On-screen text: [labels, numbers, captions — or "none"]
+**SCENE N — m:ss to m:ss**
+
+[Narration text, verbatim from the script]
+
+**Prompt:**
+[Self-contained description of what is drawn on the whiteboard. For any recurring character in this scene, paste the canonical description from the Character library verbatim, then add scene-specific action and expression.]
 ---
 ```
 
 ## Constraints
 
 - **~30–50 scenes per 10-minute script.** Each scene covers roughly 10–25 seconds of narration.
-- **Never describe HOW to animate.** Only WHAT we see on screen at the moment described.
-- No camera moves ("we pan to", "zoom in"). No software references.
-- White line work on dark background. Hand-drawn feel. Abstract figures — no faces unless an institutional logo (e.g. Fed, BlackRock).
-- Money is flowing lines or stacks, never photorealistic bills.
-- Time periods signaled by one or two iconic objects (Model T = 1907, flip phone = 1999, smartphone = 2010s).
+- **Narration first, prompt below.** Every voice-over line has a clearly-paired visual sitting underneath it.
+- **One scene = one still drawing.** No animation. The channel draws each scene on a whiteboard, holds it, moves on. Each prompt = one image.
+- **Two places or events in one scene is OK** when the narration flows that way ("A factory in Germany. A power plant in India."). Keep the flow over a rigid one-subject rule.
+- **Self-contained prompts.** Image generators have no memory across prompts. Re-state recurring character descriptions in every scene that features them.
+- **No style notes in prompts.** No color references, no medium, no line weight, no marker/ink/vector talk. The user applies style separately.
+- **No animation cues.** No camera moves, no zooms, no transitions described between scenes, no software references.
+- **WHAT, not HOW.**
 
 ## Memory updates
 

@@ -1,20 +1,21 @@
 # Visual style guide
 
-## Look
-- White line work on dark charcoal background (#1a1a1a-ish)
-- Hand-drawn, slightly imperfect line — not vector clean
-- Abstract figures: no faces, no specific identifying features
-- Money shown as flowing lines, weighted stacks, or labeled rectangles — never photorealistic bills
-- Charts and arrows are central — every mechanism has a visual diagram beat
-- Time periods signaled by one or two iconic objects in the corner of frame
+**Locked 2026-05-15:** The Scene Director does NOT enforce house style. The user handles style — color palette, line weight, medium, treatment — separately at image-generation time. The thumbnail's style (marker on whiteboard with multiple colors) and any individual scene's eventual rendered style are not the Scene Director's concern.
 
-## Composition
-- Center-weighted. One subject per scene.
-- White text labels appear next to objects/people they describe
-- Transitions between scenes are implicit — never describe a transition
+## Scene prompts contain only
 
-## Never include in a scene description
-- Camera moves
-- Specific software ("After Effects", "Blender")
-- Color codes other than the established palette
-- How long the scene takes to animate
+- **WHAT is on screen** — characters, objects, locations, labels, charts, text
+- **WHERE things are positioned** — center, left, behind, foreground, side-by-side
+- **WHAT is happening at this moment** — a person stands, a label appears next to them, a stack grows, an arrow connects two things
+
+## Scene prompts do NOT contain
+
+- Color references, palette choices, accent colors
+- Medium (marker, ink, vector, watercolor, chalk)
+- Line weight or stroke description
+- Camera movement, zoom, pan, tracking
+- Animation timing or transition behavior between scenes
+- Software references (After Effects, Blender, Procreate, etc.)
+- Lighting cues unless the lighting is the subject
+
+For per-scene block format and the character-library rule, see `scene-format.md`.
