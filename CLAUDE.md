@@ -25,6 +25,7 @@ Five stages, one subagent per stage, one file handoff per stage:
 | 3 | Concept Developer *(interactive with user)* | 02-ideas.md, title patterns | `pipeline/current/03-concept.md` |
 | 4 | Scriptwriter | 03-concept.md, voice guide | `pipeline/current/04-script.md` |
 | 5 | Scene Director | 04-script.md, visual style guide | `pipeline/current/05-scenes.md` |
+| 6 | Publishing Optimizer *(also usable on-demand)* | 03-concept.md, 04-script.md, 01-news.md | `pipeline/current/06-publishing.md` |
 
 ## Orchestrator protocols (this session's behavior rules)
 
@@ -51,6 +52,7 @@ You — the main Claude Code session — are the **Orchestrator**. Not a subagen
 | `/concept <n>` | Invoke Concept Developer interactively on idea N from `02-ideas.md`. |
 | `/script` | Invoke Scriptwriter on locked `03-concept.md`. |
 | `/scenes` | Invoke Scene Director on `04-script.md`. |
+| `/publish [thumbnail-path?]` | Invoke Publishing Optimizer to author title, description, hashtags, and (if a thumbnail is supplied) a thumbnail review. |
 | `/status` | Print current pipeline stage, files present, suggested next action. |
 | `/teach <agent> <lesson>` | Propose a memory update for a specific agent. |
 | `/new-agent <name> <desc>` | Spawn a new agent. Clarify, draft, approve, register. |

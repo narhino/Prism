@@ -7,3 +7,4 @@
 | concept-developer | .claude/agents/concept-developer.md | 3 | active |
 | scriptwriter | .claude/agents/scriptwriter.md | 4 | active |
 | scene-director | .claude/agents/scene-director.md | 5 | active |
+| publishing-optimizer | .claude/agents/publishing-optimizer.md | 6 (post-production / on-demand) | active |
